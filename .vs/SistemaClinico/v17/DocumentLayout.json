@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\lenovo\\source\\repos\\sistemaclinico\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\lenovo\\source\\repos\\sistemaclinico\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\lenovo\\source\\repos\\sistemaclinico\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\historial medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\historial medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\personal_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\personal_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\enfermedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\enfermedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFA95D8-00C5-432E-A69D-F6D735A8EA6D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capadatos\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFA95D8-00C5-432E-A69D-F6D735A8EA6D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\pacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\personal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\lenovo\\source\\repos\\sistemaclinico\\capapresentacion\\historial medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\historial medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBFA95D8-00C5-432E-A69D-F6D735A8EA6D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capadatos\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBFA95D8-00C5-432E-A69D-F6D735A8EA6D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\capapresentacion\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6152EE24-F4B3-4BDA-957E-732480A8B8A7}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +62,171 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Program.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Program.cs",
+              "RelativeToolTip": "CapaPresentacion\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T00:50:13.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Login.cs",
+              "RelativeToolTip": "CapaPresentacion\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T00:33:02.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Login.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T00:20:36.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enfermedades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Enfermedades.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Enfermedades.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Enfermedades.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Enfermedades.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:43:19.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Personal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Personal.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Personal.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Personal.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Personal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:43:00.147Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pacientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Pacientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Pacientes.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Pacientes.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Pacientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:42:43.063Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Personal_Medico.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Personal_Medico.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Personal_Medico.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Personal_Medico.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Personal_Medico.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T21:42:25.784Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaDatos\\Repositorios\\Repositorio.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Repositorios\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaDatos\\Repositorios\\Repositorio.cs",
+              "RelativeToolTip": "CapaDatos\\Repositorios\\Repositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:40:33.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositorioMaestro.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaDatos\\Repositorios\\RepositorioMaestro.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Repositorios\\RepositorioMaestro.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaDatos\\Repositorios\\RepositorioMaestro.cs",
+              "RelativeToolTip": "CapaDatos\\Repositorios\\RepositorioMaestro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:12:00.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Historial Medico.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Historial Medico.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Historial Medico.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Historial Medico.cs",
+              "RelativeToolTip": "CapaPresentacion\\Historial Medico.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:03:37.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Citas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Citas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Citas.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Citas.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Citas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T19:01:53.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Historial Medico.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Historial Medico.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Historial Medico.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\Historial Medico.cs [Design]",
+              "RelativeToolTip": "CapaPresentacion\\Historial Medico.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:40:31.773Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\App.config",
+              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\SistemaClinico\\CapaPresentacion\\App.config",
+              "RelativeToolTip": "CapaPresentacion\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-16T13:09:34.738Z",
+              "EditorCaption": ""
             }
           ]
         }
