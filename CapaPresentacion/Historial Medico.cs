@@ -43,11 +43,31 @@ namespace CapaPresentacion
             h.Show();
         }
 
+        
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
-            con.Open();
-            //SqlCommand cmd = new SqlCommand("insert into HistoriaMedica(Paciente,)"
+            try
+            {
+                SqlConnection con = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
+                con.Open();
+
+                string add = "insert into HistoriaMedica(Motivo, Fecha, Sintomas, Diagnostico, Tratamiento, Detalles, PresionArterial, Temperatura) values ('" + txtmotivo.Text + "','" + txtfecha.Text + "', '" + txtsintomas.Text + "', '" + txtdiagnostico.Text + "', '" + txttratamiento.Text + "', '" + txtdetalles.Text + "', '" + txtpresion_arterial.Text + "', '" + Convert.ToDouble(txttemperatura.Text) + "')";
+
+                SqlCommand cmd = new SqlCommand(add, con);
+                SqlDataReader lector;
+                lector = cmd.ExecuteReader();
+
+                MessageBox.Show("Datos agregados correctamente","Validación");
+            }
+            catch 
+            {
+                MessageBox.Show("Hubo un error en los datos","Error");
+            }
+
+
+            
+
+
         }
 
         private void personalMédicoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -76,6 +96,35 @@ namespace CapaPresentacion
             Enfermedades h = new Enfermedades();
             this.Hide();
             h.Show();
+
+        }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtpresion_arterial.Clear();
+            txtmotivo.Clear();
+            txtfecha.Clear();
+            txtdiagnostico.Clear();
+            txtdetalles.Clear();
+            txtsintomas.Clear();
+            txttemperatura.Clear();
+            txttratamiento.Clear();
+        }
+
+        private void Historial_Medico_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
+            con.Open();
+
+            string consulta = "select * from HistoriaMedica";
+            SqlDataAdapter a = new SqlDataAdapter(consulta, con);
+            DataTable dataTable = new DataTable();
+            a.Fill(dataTable);
+            Data_Historial_Medico.DataSource = dataTable;
+        }
+
+        private void Data_Historial_Medico_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

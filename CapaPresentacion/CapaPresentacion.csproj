@@ -90,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Citas.resx">
+      <DependentUpon>Citas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Historial Medico.resx">
       <DependentUpon>Historial Medico.cs</DependentUpon>
     </EmbeddedResource>
