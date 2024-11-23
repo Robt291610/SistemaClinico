@@ -30,16 +30,14 @@
         {
             this.Data_Historial_Medico = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaDeCitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalMédicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enfermedadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnagregar = new System.Windows.Forms.Button();
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -48,7 +46,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtmotivo = new System.Windows.Forms.TextBox();
             this.txtsintomas = new System.Windows.Forms.TextBox();
-            this.txtfecha = new System.Windows.Forms.TextBox();
             this.txtdiagnostico = new System.Windows.Forms.TextBox();
             this.txttratamiento = new System.Windows.Forms.TextBox();
             this.txttemperatura = new System.Windows.Forms.TextBox();
@@ -68,6 +65,7 @@
             this.Data_Historial_Medico.RowTemplate.Height = 24;
             this.Data_Historial_Medico.Size = new System.Drawing.Size(1480, 395);
             this.Data_Historial_Medico.TabIndex = 0;
+            this.Data_Historial_Medico.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Data_Historial_Medico_CellContentClick);
             this.Data_Historial_Medico.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Data_Historial_Medico_CellContentClick);
             // 
             // menuStrip1
@@ -76,60 +74,51 @@
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Right;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.busquedaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(1323, 0);
+            this.ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(1090, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(157, 694);
+            this.menuStrip1.Size = new System.Drawing.Size(390, 694);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // busquedaToolStripMenuItem
+            // ToolStripMenuItem
             // 
-            this.busquedaToolStripMenuItem.AutoSize = false;
-            this.busquedaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.agendaDeCitasToolStripMenuItem,
             this.personalMédicoToolStripMenuItem,
             this.pacientesToolStripMenuItem,
-            this.personalToolStripMenuItem,
-            this.enfermedadesToolStripMenuItem});
-            this.busquedaToolStripMenuItem.Name = "busquedaToolStripMenuItem";
-            this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
-            this.busquedaToolStripMenuItem.Text = "Busqueda";
+            this.personalToolStripMenuItem});
+            this.ToolStripMenuItem.Name = "ToolStripMenuItem";
+            this.ToolStripMenuItem.Size = new System.Drawing.Size(383, 24);
+            this.ToolStripMenuItem.Text = "Administrador de datos";
             // 
             // agendaDeCitasToolStripMenuItem
             // 
             this.agendaDeCitasToolStripMenuItem.Name = "agendaDeCitasToolStripMenuItem";
-            this.agendaDeCitasToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+            this.agendaDeCitasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.agendaDeCitasToolStripMenuItem.Text = "Agenda de citas";
             this.agendaDeCitasToolStripMenuItem.Click += new System.EventHandler(this.agendaDeCitasToolStripMenuItem_Click);
             // 
             // personalMédicoToolStripMenuItem
             // 
             this.personalMédicoToolStripMenuItem.Name = "personalMédicoToolStripMenuItem";
-            this.personalMédicoToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+            this.personalMédicoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.personalMédicoToolStripMenuItem.Text = "Personal Médico";
             this.personalMédicoToolStripMenuItem.Click += new System.EventHandler(this.personalMédicoToolStripMenuItem_Click);
             // 
             // pacientesToolStripMenuItem
             // 
             this.pacientesToolStripMenuItem.Name = "pacientesToolStripMenuItem";
-            this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+            this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pacientesToolStripMenuItem.Text = "Pacientes";
             this.pacientesToolStripMenuItem.Click += new System.EventHandler(this.pacientesToolStripMenuItem_Click);
             // 
             // personalToolStripMenuItem
             // 
             this.personalToolStripMenuItem.Name = "personalToolStripMenuItem";
-            this.personalToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
+            this.personalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.personalToolStripMenuItem.Text = "Personal";
             this.personalToolStripMenuItem.Click += new System.EventHandler(this.personalToolStripMenuItem_Click);
-            // 
-            // enfermedadesToolStripMenuItem
-            // 
-            this.enfermedadesToolStripMenuItem.Name = "enfermedadesToolStripMenuItem";
-            this.enfermedadesToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
-            this.enfermedadesToolStripMenuItem.Text = "Enfermedades";
-            this.enfermedadesToolStripMenuItem.Click += new System.EventHandler(this.enfermedadesToolStripMenuItem_Click);
             // 
             // btnagregar
             // 
@@ -137,7 +126,7 @@
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(89, 37);
             this.btnagregar.TabIndex = 3;
-            this.btnagregar.Text = "Agregar";
+            this.btnagregar.Text = "Registrar";
             this.btnagregar.UseVisualStyleBackColor = true;
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
@@ -159,15 +148,6 @@
             this.label2.Size = new System.Drawing.Size(47, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "Motivo";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 206);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 16);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Fecha";
             // 
             // label4
             // 
@@ -208,7 +188,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(652, 149);
+            this.label8.Location = new System.Drawing.Point(8, 203);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(98, 16);
             this.label8.TabIndex = 12;
@@ -225,7 +205,7 @@
             // 
             // txtmotivo
             // 
-            this.txtmotivo.Location = new System.Drawing.Point(104, 146);
+            this.txtmotivo.Location = new System.Drawing.Point(141, 146);
             this.txtmotivo.Name = "txtmotivo";
             this.txtmotivo.Size = new System.Drawing.Size(100, 22);
             this.txtmotivo.TabIndex = 14;
@@ -236,14 +216,6 @@
             this.txtsintomas.Name = "txtsintomas";
             this.txtsintomas.Size = new System.Drawing.Size(100, 22);
             this.txtsintomas.TabIndex = 16;
-            // 
-            // txtfecha
-            // 
-            this.txtfecha.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtfecha.Location = new System.Drawing.Point(104, 203);
-            this.txtfecha.Name = "txtfecha";
-            this.txtfecha.Size = new System.Drawing.Size(100, 22);
-            this.txtfecha.TabIndex = 15;
             // 
             // txtdiagnostico
             // 
@@ -261,14 +233,14 @@
             // 
             // txttemperatura
             // 
-            this.txttemperatura.Location = new System.Drawing.Point(104, 85);
+            this.txttemperatura.Location = new System.Drawing.Point(141, 85);
             this.txttemperatura.Name = "txttemperatura";
             this.txttemperatura.Size = new System.Drawing.Size(100, 22);
             this.txttemperatura.TabIndex = 21;
             // 
             // txtpresion_arterial
             // 
-            this.txtpresion_arterial.Location = new System.Drawing.Point(785, 149);
+            this.txtpresion_arterial.Location = new System.Drawing.Point(141, 203);
             this.txtpresion_arterial.Name = "txtpresion_arterial";
             this.txtpresion_arterial.Size = new System.Drawing.Size(100, 22);
             this.txtpresion_arterial.TabIndex = 20;
@@ -291,7 +263,6 @@
             this.Controls.Add(this.txttratamiento);
             this.Controls.Add(this.txtdiagnostico);
             this.Controls.Add(this.txtsintomas);
-            this.Controls.Add(this.txtfecha);
             this.Controls.Add(this.txtmotivo);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -299,7 +270,6 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.btnagregar);
@@ -321,16 +291,14 @@
 
         private System.Windows.Forms.DataGridView Data_Historial_Medico;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agendaDeCitasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem personalMédicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pacientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem personalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem enfermedadesToolStripMenuItem;
         private System.Windows.Forms.Button btnagregar;
         private System.Windows.Forms.Button btnlimpiar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -339,7 +307,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtmotivo;
         private System.Windows.Forms.TextBox txtsintomas;
-        private System.Windows.Forms.TextBox txtfecha;
         private System.Windows.Forms.TextBox txtdiagnostico;
         private System.Windows.Forms.TextBox txttratamiento;
         private System.Windows.Forms.TextBox txttemperatura;

@@ -51,7 +51,7 @@ namespace CapaPresentacion
                 SqlConnection con = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
                 con.Open();
 
-                string add = "insert into HistoriaMedica(Motivo, Fecha, Sintomas, Diagnostico, Tratamiento, Detalles, PresionArterial, Temperatura) values ('" + txtmotivo.Text + "','" + txtfecha.Text + "', '" + txtsintomas.Text + "', '" + txtdiagnostico.Text + "', '" + txttratamiento.Text + "', '" + txtdetalles.Text + "', '" + txtpresion_arterial.Text + "', '" + Convert.ToDouble(txttemperatura.Text) + "')";
+                string add = "insert into HistoriaMedica(Motivo, Sintomas, Diagnostico, Tratamiento, Detalles, PresionArterial, Temperatura) values ('" + txtmotivo.Text + "', '" + txtsintomas.Text + "', '" + txtdiagnostico.Text + "', '" + txttratamiento.Text + "', '" + txtdetalles.Text + "', '" + txtpresion_arterial.Text + "', '" + Convert.ToDouble(txttemperatura.Text) + "')";
 
                 SqlCommand cmd = new SqlCommand(add, con);
                 SqlDataReader lector;
@@ -103,7 +103,6 @@ namespace CapaPresentacion
         {
             txtpresion_arterial.Clear();
             txtmotivo.Clear();
-            txtfecha.Clear();
             txtdiagnostico.Clear();
             txtdetalles.Clear();
             txtsintomas.Clear();

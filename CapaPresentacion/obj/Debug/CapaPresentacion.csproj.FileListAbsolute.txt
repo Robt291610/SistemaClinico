@@ -13,3 +13,7 @@ C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\bin\Debug\CapaDatos
 C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.LoginForm.resources
 C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.Citas.resources
+C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.Enfermedades.resources
+C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.Pacientes.resources
+C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.Personal.resources
+C:\Users\LENOVO\source\repos\SistemaClinico\CapaPresentacion\obj\Debug\CapaPresentacion.Personal_Medico.resources
