@@ -29,25 +29,40 @@ namespace CapaPresentacion
             SqlConnection x = new SqlConnection("Data Source=Robertlaptop\\SQLEXPRESS01;Initial Catalog=HistorialMedico;Integrated Security=True;Encrypt=False;TrustServerCertificate=True");
             x.Open();
 
-            string consulta = "select * from Usuarios where Usuario = '"+textBox1.Text+"' and  Contrasena = '"+textBox2.Text+"'";
+            string consulta = "select * from Usuarios where Usuario = '" + textBox1.Text + "' and  Contrasena = '" + textBox2.Text + "'";
             SqlCommand comando = new SqlCommand(consulta, x);
             SqlDataReader Lector;
             Lector = comando.ExecuteReader();
 
             if (Lector.HasRows == true)
             {
-                Historial_Medico a = new Historial_Medico();
+                Form1 a = new Form1();
                 this.Hide();
                 a.Show();
             }
-            else 
+            else
             {
-                MessageBox.Show("El nombre de usuario o la contraseña ha sido incorrecto","Error",MessageBoxButtons.OK);
+                MessageBox.Show("El nombre de usuario o la contraseña ha sido incorrecto", "Error", MessageBoxButtons.OK);
                 textBox1.Clear();
                 textBox2.Clear();
             }
 
             x.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn1salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

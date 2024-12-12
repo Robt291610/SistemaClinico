@@ -14,7 +14,7 @@ using CapaDatos.Repositorios;
 
 namespace CapaPresentacion
 {
-    public partial class Historial_Medico : Form 
+    public partial class Historial_Medico : Form
     {
         public object CapaDatos { get; private set; }
 
@@ -25,9 +25,9 @@ namespace CapaPresentacion
 
         private void searchToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-           
 
-            
+
+
 
 
 
@@ -43,7 +43,7 @@ namespace CapaPresentacion
             h.Show();
         }
 
-        
+
         private void btnagregar_Click(object sender, EventArgs e)
         {
             try
@@ -57,15 +57,27 @@ namespace CapaPresentacion
                 SqlDataReader lector;
                 lector = cmd.ExecuteReader();
 
-                MessageBox.Show("Datos agregados correctamente","Validación");
+                SqlConnection co = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
+                co.Open();
+                string consulta = "SELECT * from HistoriaMedica";
+                DataTable dataTable = new DataTable();
+                SqlDataAdapter a = new SqlDataAdapter(consulta, co);
+                a.Fill(dataTable);
+                Data_Historial_Medico.DataSource = dataTable;
+
+
+
+
+
+                MessageBox.Show("Datos agregados correctamente", "Validación");
             }
-            catch 
+            catch
             {
-                MessageBox.Show("Hubo un error en los datos","Error");
+                MessageBox.Show("Hubo un error en los datos", "Error");
             }
 
 
-            
+
 
 
         }
@@ -125,6 +137,53 @@ namespace CapaPresentacion
         private void Data_Historial_Medico_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void historialMédicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pacientesToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void personalToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void personalMédicoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form1 u = new Form1();
+            this.Hide();
+            u.Show();
         }
     }
 }

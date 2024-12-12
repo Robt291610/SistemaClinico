@@ -83,17 +83,28 @@ namespace CapaPresentacion
 
         private void btnregistrar_Click(object sender, EventArgs e)
         {
-            try 
+            try
             {
                 SqlConnection con = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
                 con.Open();
-                string query = "insert into Citas(Motivo, Detalles) values('"+txtmotivo.Text+"','"+txtdetalles.Text+"')";
+                string query = "insert into Citas(idPaciente,idUsuario,Fecha,Motivo, Detalles) values('" + Convert.ToInt32(txtpaciente.Text) + "','" + Convert.ToInt32(txtusuario.Text) + "','" + dateTimePicker1.Value + "','" + txtmotivo.Text + "','" + txtdetalles.Text + "')";
                 SqlCommand cmd = new SqlCommand(query, con);
                 SqlDataReader x;
                 x = cmd.ExecuteReader();
-                MessageBox.Show("Datos agregados correctamente","Validación");
+
+                SqlConnection co = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
+                co.Open();
+                string consulta = "SELECT * from Citas";
+                DataTable dataTable = new DataTable();
+                SqlDataAdapter a = new SqlDataAdapter(consulta, co);
+                a.Fill(dataTable);
+                dataGridView1.DataSource = dataTable;
+
+
+                MessageBox.Show("Datos agregados correctamente");
+
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Algo salio mal");
             }
@@ -103,7 +114,25 @@ namespace CapaPresentacion
         {
             txtdetalles.Clear();
             txtmotivo.Clear();
-            
+            txtpaciente.Clear();
+            txtusuario.Clear();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.Show();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

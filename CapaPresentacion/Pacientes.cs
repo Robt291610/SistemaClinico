@@ -71,6 +71,15 @@ namespace CapaPresentacion
                 SqlCommand cmd = new SqlCommand(query, conn);
                 SqlDataReader reader;
                 reader = cmd.ExecuteReader();
+
+                SqlConnection co = new SqlConnection("Data Source = Robertlaptop\\SQLEXPRESS01; Initial Catalog = HistorialMedico; Integrated Security = True; Encrypt = False; TrustServerCertificate = True");
+                co.Open();
+                string consulta = "SELECT * from Pacientes";
+                DataTable dataTable = new DataTable();
+                SqlDataAdapter a = new SqlDataAdapter(consulta, co);
+                a.Fill(dataTable);
+                dataGridView1.DataSource = dataTable;
+
                 MessageBox.Show("Datos agregados correctamente");
 
             }
@@ -81,6 +90,55 @@ namespace CapaPresentacion
 
 
 
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            //regresar al menu
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtapellidos.Clear();
+            txtcodigopostal.Clear();
+            txtcorreo.Clear();
+            txttelefono.Clear();
+            txtcontactoemergencia.Clear();
+            txtdireccion.Clear();
+            txtnif.Clear();
+            txtseguridadsocial.Clear();
+            txtnombres.Clear();
+            cbestadocivil.Text = String.Empty;
+            cbsexo.Text = String.Empty;
+            cbtiposangre.Text = String.Empty;
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            this.Hide();
+            frm.Show();
+        }
+
+        private void cbtiposangre_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

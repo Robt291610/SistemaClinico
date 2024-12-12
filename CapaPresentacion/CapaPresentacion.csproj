@@ -58,6 +58,12 @@
     <Compile Include="Enfermedades.Designer.cs">
       <DependentUpon>Enfermedades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Historial Medico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,11 +96,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_SistemaClinicoRestaurada_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_SistemaClinicoRestaurada_DataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Citas.resx">
       <DependentUpon>Citas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enfermedades.resx">
       <DependentUpon>Enfermedades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Historial Medico.resx">
       <DependentUpon>Historial Medico.cs</DependentUpon>
@@ -119,6 +133,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -129,6 +144,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="_SistemaClinicoRestaurada_DataSet.xsc">
+      <DependentUpon>_SistemaClinicoRestaurada_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_SistemaClinicoRestaurada_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_SistemaClinicoRestaurada_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_SistemaClinicoRestaurada_DataSet.xss">
+      <DependentUpon>_SistemaClinicoRestaurada_DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -138,6 +164,63 @@
       <Project>{dbfa95d8-00c5-432e-a69d-f6d735a8ea6d}</Project>
       <Name>CapaDatos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar_un_título-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11-04-ver-historial-medico-inceme-blog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia Clinica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia Clinica %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia_Clinica__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picmix.com_2580351.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia_Clinica__3_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia_Clinica__4_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DWW3YHwV4AA5XxJ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historia_Clinica__5_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\citas-medicas-responsive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36120817-ilustración-vectorial-de-la-moderna-icono-lue-b-personal-médico-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
